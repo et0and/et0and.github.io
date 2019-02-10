@@ -7,7 +7,7 @@
     -webkit-overflow-scrolling:touch
 }
 html{
-    line-height:1.5;
+    line-height:1.15;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%
 }
@@ -163,9 +163,7 @@ canvas{
     display:none
 }
 body{
-    
-    font-family: 'Fahkwang', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family:UntitledSansWeb,UntitledSans,Helvetica,Arial,sans-serif;
     -webkit-font-smoothing:antialiased;
     overflow-x:hidden
 }
@@ -176,14 +174,16 @@ body{
     background-color:#fff
 }
 @font-face{
-    font-family: 'Fahkwang';
-    src:url(https://fonts.googleapis.com/css?family=Fahkwang);
+    font-family:UntitledSansWeb;
+    src:url(/fonts/UntitledSansWeb-Regular.eot);
+    src:url(/fonts/UntitledSansWeb-Regular.eot?#iefix) format("embedded-opentype"),url(/fonts/UntitledSansWeb-Regular.woff2) format("woff2"),url(/fonts/UntitledSansWeb-Regular.woff) format("woff"),url(/fonts/UntitledSansWeb-Regular.svg#UntitledSans-Regular) format("svg");
     font-weight:400;
     font-style:normal
 }
 @font-face{
-    font-family: 'Roboto';
-    src:url(https://fonts.googleapis.com/css?family=Roboto);
+    font-family:FTSwitch-Regular;
+    src:url(/fonts/FTSwitch-Regular.eot);
+    src:url(/fonts/FTSwitch-Regular.eot?#iefix) format("embedded-opentype"),url(/fonts/FTSwitch-Regular.woff2) format("woff2"),url(/fonts/FTSwitch-Regular.woff) format("woff"),url(/fonts/FTSwitch-Regular.svg#FTSwitch-Regular) format("svg");
     font-weight:400;
     font-style:normal
 }
@@ -212,14 +212,14 @@ img{
     bottom:40px;
     opacity:.15;
     font-size:12px;
-    font-family: 'Fahkwang',sans-serif
+    font-family:UntitledSansWeb,UntitledSans,Helvetica,Arial,sans-serif
 }
 #info_home a{
     color:#000;
     text-decoration:none
 }
 #error,#home{
-    font-family: 'Roboto',sans-serif;
+    font-family:FTSwitch-Regular,FTSwitch,Helvetica,Arial,sans-serif;
     margin:0 0 0 50px;
     padding-top:45px
 }
@@ -334,7 +334,7 @@ img{
     transition:all 50ms ease-in-out
 }
 #log h1,#log h2{
-    font-family: 'Roboto',sans-serif;
+    font-family:FTSwitch-Regular,FTSwitch,Helvetica,Arial,sans-serif;
     font-weight:400;
     margin:0 0 0 50px;
     padding:0;
@@ -401,7 +401,7 @@ img{
     max-width:calc(100vw - 284px)
 }
 #index table tr td .new{
-    font-family: 'Roboto',sans-serif;
+    font-family:FTSwitch-Regular,FTSwitch,Helvetica,Arial,sans-serif;
     display:inline-block;
     height:20px;
     background-color:#ff0;
@@ -589,7 +589,7 @@ img{
     padding-bottom:100px
 }
 .page h1{
-    font-family: 'Fahkwang',sans-serif;
+    font-family:FTSwitch-Regular,FTSwitch,Helvetica,Arial,sans-serif;
     font-size:100px;
     line-height:100px;
     margin:0 auto;
@@ -692,7 +692,7 @@ img{
     margin-bottom:48px
 }
 #evento_form .box h1,#evento_form .box h2{
-    font-family: 'Roboto',sans-serif;
+    font-family:FTSwitch-Regular,FTSwitch,Helvetica,Arial,sans-serif;
     font-size:48px;
     line-height:48px;
     font-weight:400;
@@ -704,7 +704,7 @@ img{
     padding:38px 0 370px
 }
 #evento_form .box h3{
-    font-family: 'Roboto',sans-serif;
+    font-family:FTSwitch-Regular,FTSwitch,Helvetica,Arial,sans-serif;
     font-size:48px;
     line-height:48px;
     font-weight:400;
@@ -734,7 +734,7 @@ img{
     font-size:20px;
     line-height:60px;
     text-align:left;
-    font-family: 'Roboto',sans-serif
+    font-family:UntitledSansWeb,UntitledSans,Helvetica,Arial,sans-serif
 }
 #evento_form .box form input[type=submit]{
     margin:30px 0 40px;
