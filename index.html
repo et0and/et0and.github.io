@@ -1,41 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-GB">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
     <title>Tom Hackshaw</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<link rel="stylesheet" href="/style.css" type="text/css" />
+    <meta name="description" content="Website of Tom Hackshaw.">
+    <meta property="og:title" content="Tom Hackshaw">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://normadesign.it/background_blue.png">
+    <meta property="og:description" content="Website of Tom Hackshaw.">
+    <meta property="og:site_name" content="Tom Hackshaw">
+    <link rel="stylesheet" href="https://normadesign.it/css/main.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://normadesign.it/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://normadesign.it/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://normadesign.it/favicon-16x16.png">
+    <link rel="manifest" href="https://normadesign.it/site.webmanifest">
+    <link rel="mask-icon" href="https://normadesign.it/safari-pinned-tab.svg" color="#000000">
+    <meta name="apple-mobile-web-app-title" content="Tom Hackshaw">
+    <meta name="application-name" content="Tom Hackshaw">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#000000">
+    <script src="https://cdn.jsdelivr.net/npm/socket.io-client@2.1.0/dist/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <script src="https://normadesign.it/js/startup.min.js"></script>
+    <script>
+        var Hyphenopoly = {
+            require: {
+                "it": "FORCEHYPHENOPOLY",
+                "en-us": "leavingforcompatibility"
+            },
+            setup: {
+                classnames: {
+                    "hyphenate": {
+                        "leftmin": 3,
+                        "rightmin": 3,
+                        "minWordLength": 6,
+                        "orphanControl": 3
+                    },
+                    "container": {}
+                }
+            }
+        };
+    </script>
+    <script src="https://normadesign.it/js/Hyphenopoly_Loader.js"></script>
+    <script>
+        var pagename = "home"
+        var currentbrowser = "firefox"
+    </script>
+    
+    
 </head>
 
-<body>
-    <header>
-        <h1>Tom Hackshaw</h1>
-        <aside>Teaching resources + materials</aside>
-    </header>
-    <h2>For staff/teachers</h2>
-    
-    <p><a href="https://doc.thac.xyz">E-portfolio</a> containing posts and evidence of teaching that is aligned with the New Zealand Curriculum standards. Password available upon request.</p>
-  
-    <h2>For students</h2>
-    
-    <p><a href="https://artists.thac.xyz">Aoteoroa Artists List (AAL)</a> is an online index of different Aoteoroa/NZ artists working in a variety of media. Hover over any of the names with your mouse to get a preview of someone's work, and click to get directed to the top search results!</p>
-
-    <p><a href="https://bit.ly/2Sz6clO">Lesson files</a> for Art History and Visual Arts. Students can find copies of summary sheets, podcasts, videos and images posted after every lesson here.</p>
-    
-    <p><a href="https://bit.ly/2t9hj6O">Homework</a> for Art History and Visual Arts. Students can find the instructions and files associated with today's homework here.</p>
-    
-    <p><a href="https://trello.com">Class Trello board</a>, for notices about what is coming up and online class discussions.</p>
- 
-    <p><a href"/games">Fun activities + games</a> for if you are bored but want to learn something at the same time!</p>
-    
-    <hr>
-    <h2>Contact</h2>
-    <p>For school related matters, email <mailto:href="thac408@aucklanduni.ac.nz">thac408@aucklanduni.ac.nz</a></p>
-   
-   <script src="//instant.page/1.0.0" type="module" integrity="sha384-6w2SekMzCkuMQ9sEbq0cLviD/yR2HfA/+ekmKiBnFlsoSvb/VmQFSi/umVShadQI"></script>
-
+<body class="firefox page_home">
+    <div id="main">
+        <div id="home">
+            <div class="container">
+                <h1>TOM HACKSHAW</h1><br>
+                <h2>Teaching resources + materials.</h2>
+                <h2>— <a class="compass" href="https://normadesign.it/log/ogni-pagina-su-internet-emette-co2">e-portfolio</a> of teaching, <a class="compass" href="https://normadesign.it/log/web-design-allorigine-del-web">Aotearoa Artists List (AAL)</a>,  an online index of different Aoteoroa/NZ artists working in a variety of media. Hover over any of the names with your mouse to get a preview of someone's work, and click to get directed to the top search results! <br>
+		<a class="compass" href="https://normadesign.it/log/visitare-un-museo-via-internet">Lesson files</a> for students <br>and other things.</h2><br>
+                <p lang="en-GB">For any school related enquiries, contact</p>
+                <p lang="en-GB">— <a href="mailto:thac408@aucklanduni.ac.nz">thac408@aucklanduni.ac.nz</a>
+			
+            </div>
+            <div id="info_home">This site, along with all of its associated materials, are released under <a href"https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a> unless otherwise noted.</div>
+        </div>
+    </div>
+    <script src="https://normadesign.it/js/main.min.js"></script>
 </body>
 
 </html>
