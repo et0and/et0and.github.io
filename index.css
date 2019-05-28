@@ -39,13 +39,6 @@ a
     width: inherit;
 }
 
-a:hover
-{
-    transition: .3s;
-
-    opacity: .7;
-}
-
 p a
 {
     color: blue;
