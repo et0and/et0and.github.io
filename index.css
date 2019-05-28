@@ -16,6 +16,7 @@ body
     overflow-x: hidden;
     margin: 0 auto;
     padding-top: 100px;
+    padding-left: 15px;
     color: black;
     background: white;
     -webkit-font-smoothing: antialiased;
